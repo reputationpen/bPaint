@@ -3,9 +3,9 @@ import PySimpleGUI as sg
 sg.theme('Dark Blue 3')  # please make your windows colorful
 
 layout = [[sg.Text('Persistent window')],
-          [sg.Input()],
+          [sg.Input('What if i put text here')],
           [sg.Button('Read'), sg.Exit()],
-          [sg.Button('Pain')]]
+          [sg.Button('More Changes')]]
 
 window = sg.Window('Bro I made changes', layout)
 
