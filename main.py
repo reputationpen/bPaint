@@ -7,7 +7,7 @@ layout = [[sg.Text('Persistent window')],
           [sg.Button('Read'), sg.Exit()],
           [sg.Button('Pain')]]
 
-window = sg.Window('Window that stays open', layout)
+window = sg.Window('Bro I made changes', layout)
 
 while True:
     event, values = window.read()
